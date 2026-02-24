@@ -1,4 +1,8 @@
-  datasource:
-    url: jdbc:h2:file./data/eventsdb
-    username: sa
-    password: 
+datasource:
+  url: jdbc:h2:file./data/eventsdb
+  username: sa
+  password: 
+  driver-class-name: org.h2.Driver
+jpa:
+  hibernate:
+    ddl: update
